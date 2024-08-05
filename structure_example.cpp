@@ -11,10 +11,10 @@ struct address
 int main()
 {
     address taq;
-    cout << "Enter yor City name: " << endl;
+    cout << "Enter City Name " << endl;
     cin>>taq.city;
     cout << "Output from Structure " << endl;
-    cout << "City:        " << taq.city << endl;
+    cout << "City :        " << taq.city << endl;
     cout << "Postal Code: " <<taq.pcode << endl;
     return 0 ;    
 }
