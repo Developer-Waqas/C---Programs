@@ -1,4 +1,4 @@
-#include <iostream> 
+#include <iostream>
 #include <conio.h>
 using namespace std;
 
@@ -11,10 +11,10 @@ struct address
 int main()
 {
     address taq;
-    cout << "Enter City Name " << endl;
-    cin>>taq.city;
+    cout << "Enter your City name: " << endl;
+    cin >> taq.city;
     cout << "Output from Structure " << endl;
-    cout << "City :        " << taq.city << endl;
-    cout << "Postal Code: " <<taq.pcode << endl;
-    return 0 ;    
+    cout << "City:        " << taq.city << endl;
+    cout << "Postal Code: " << taq.pcode << endl;
+    return 0;
 }
