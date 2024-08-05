@@ -16,23 +16,23 @@ int main()
     switch (op)
     {
     case '+':
-        cout << "Addition = " << num1 + num2 << endl;
+        cout << "Your Addition = " << num1 + num2 << endl;
         break;
     case '-':
-        cout << "Difference = " << num1 - num2 << endl;
+        cout << "Your Difference = " << num1 - num2 << endl;
         break;
     case '*':
-        cout << "Product = " << num1 * num2 << endl;
+        cout << "Your Product = " << num1 * num2 << endl;
         break;
     case '/':
-        cout << "Division = " << num1 / num2 << endl;
+        cout << "Your Division = " << num1 / num2 << endl;
         break;  
     default: 
         cout << "Invalid Operator!" << endl;
         break;
         
     }
-    cout << "If want to Repeat, Please Enter 'R' or 'r'" << endl;   
+    cout << "If wanna Repeat, Please Enter 'R' or 'r'" << endl;   
         cin >> repeat;
     }
     while (repeat == 'R' || repeat == 'r');
